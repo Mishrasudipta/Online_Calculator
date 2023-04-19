@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<link rel="stylesheet" href="Online Calculator.css">
+		<title>Online Calculate</title>
+	</head>
+	<body>
+	<h1>
+		Online Calculate
+	</h1>
+	<h2>
+		By:- Tech Projects
+	</h2>
+	</body>
+	
+	
+	
+	<form name="form1" class="calc1" action="Online Calculate.html" method="post">
+<input type="text" name="answar" id="display">
+<br>
+	</br>
+	
+<input type="button" class="Btndesign" value="C" onclick="form1.answar.value= ''">
+<input type="button" class="Btndesign" value="<" onclick="form1.answar.value=from1.answar.value.substring(0,form1.answar.value.length*1-1)">
+<input type="button" class="Btndesign" value="00" onclick="form1.answar.value+= '00'">
+<input type="button" class="operatorDesign" value="/" onclick="form1.answar.value+= '/'">
+<br>
+</br>
+
+<input type="button" class="Btndesign" value="7" onclick="form1.answar.value+= '7'">
+<input type="button" class="Btndesign" value="8" onclick="form1.answar.value+= '8'">
+<input type="button" class="Btndesign" value="9" onclick="form1.answar.value+= '9'">
+<input type="button" class="operatorDesign" value="*" onclick="form1.answar.value+= '*'">
+<br>
+</br>
+
+<input type="button" class="Btndesign" value="4" onclick="form1.answar.value+= '4'">
+<input type="button" class="Btndesign" value="5" onclick="form1.answar.value+= '5'">
+<input type="button" class="Btndesign" value="6" onclick="form1.answar.value+= '6'">
+<input type="button" class="operatorDesign" value="-" onclick="form1.answar.value+= '-'">
+<br>
+</br>
+
+<input type="button" class="Btndesign" value="1" onclick="form1.answar.value+= '1'">
+<input type="button" class="Btndesign" value="2" onclick="form1.answar.value+= '2'">
+<input type="button" class="Btndesign" value="3" onclick="form1.answar.value+= '3'">
+<input type="button" class="operatorDesign" value="+" onclick="form1.answar.value+= '+'">
+<br>
+</br>
+
+<input type="button" class="operatorDesign" value="(" onclick="form1.answar.value+= '('">
+<input type="button" class="operatorDesign" value=")" onclick="form1.answar.value+= ')'">
+<input type="button" class="operatorDesign" value="{" onclick="form1.answar.value+= '{'">
+<input type="button" class="operatorDesign" value="}" onclick="form1.answar.value+= '}'">
+<br>
+</br>
+
+<input type="button" class="operatorDesign" value="[" onclick="form1.answar.value+= '['">
+<input type="button" class="operatorDesign" value="]" onclick="form1.answar.value+= ']'">
+<input type="button" class="operatorDesign" value="sin" onclick="form1.answar.value+= 'sin'">
+<input type="button" class="operatorDesign" value="cos" onclick="form1.answar.value+= 'cos'">
+<br>
+</br>
+
+<input type="button" class="operatorDesign" value="tan" onclick="form1.answar.value+= 'tan'">
+<input type="button" class="operatorDesign" value="%" onclick="form1.answar.value+= '%'">
+<input type="button" class="operatorDesign" value="^" onclick="form1.answar.value+= ^
+<input type="button" class="operatorDesign" value=">" onclick="form1.answar.value+= '>'">
+<br>
+</br>
+
+<input type="button" id="zero" value="0" onclick="form1.answar.value+= '0'">
+<input type="button" class="Btndesign" value="." onclick="form1.answar.value+= '.'">
+<input type="button" class="operatorDesign" value="=" onclick="form1.answar.value=eval(form1.answar.value)">
+
+
+	</form>
+</html>
